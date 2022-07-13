@@ -1,6 +1,6 @@
 # hll
 
-Basic implementation of [https://en.wikipedia.org/wiki/HyperLogLog#Streaming_HLL](HyperLogLog)
+Basic implementation of [https://en.wikipedia.org/wiki/HyperLogLog](HyperLogLog)
 
 ## 5-bit counters
 The algorithm uses 5-bit counters, or registers, so we need to effectively store them, i.e. support logic cells over byte arrays, see [small_cells.py](src/small_cells.py)
